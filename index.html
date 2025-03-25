@@ -1,1 +1,95 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>SafeBite PROTOTYPE</title>
+</head>
+<body>
+    <noscript>Enable JavaScript to view.</noscript>
+    <div id="popup">
+        <h3>Welcome to the SafeBite Demo!</h3>
+        <p>As this is a demo, not all features are implemented yet. Restaurants shown are <b>purely fictional</b> and are meant to be examples. If you would like to be featured here, let us known at <b>safebite@mail.com</b>!</p>
+        <p>Otherwise, feel free to explore! Hover over elements to read what they'll be like in the final version.</p>
+        <button onclick="closePopup();">Got it!</button>
+    </div>
+    <div class="wrapper">
+        <div class="search" title="This is the search/filter bar. By clicking on the filter (the small images), you would be able to filter out restaurants that have these ingredients. Right now, we have the most common ones listed, but we hope to expand that!">
+            <input type="text" name="" id="search" placeholder="Find a restaurant...">
+            <img src="images/icons/1.png" alt="Has Egg">
+            <img src="images/icons/2.png" alt="Has Nuts">
+            <img src="images/icons/3.png" alt="Has Dairy">
+            <img src="images/icons/4.png" alt="Has Soy">
+            <img src="images/icons/5.png" alt="Has Gluten">
+        </div>
+        <br>
+        <div class="grid" title="This is the main grid! This is where all the restaurants will be displayed, alongside a &quot;sponsored&quote;.">
+            <div class="restaurant" id="sponsored" title="This is an example of a sponsored restaurant, these restaurants will be highlighted and pushed to the first page, giving them more eyes.">
+                <div id="spons" class="title"><i>Sponsored!</i></div>
+                <img src="images/res2.jpg" alt="" id="image">
+                <div class="title" title="This is the title. It shows the name of the restaurant and the allergens it has. The grey dot menu shows more allergens that when clicked, expand. Clicking on the card leads to more information about the restaurant, like it's location and full allergy menu if available. ">
+                    The Rustic Fork 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+                
+            </div>
+            <div class="restaurant">
+                <img src="images/res3.jpg" alt="" id="image">
+                <div class="title">
+                    The Wild Olive 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                    
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+            </div>
+            <div class="restaurant">
+                <img src="images/res4.jpg" alt="" id="image">
+                <div class="title">
+                    Luna's Table 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                    
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+            </div>
+            <div class="restaurant">
+                <img src="images/res5.jpg" alt="" id="image">
+                <div class="title">
+                    The Copper Skillet 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                    
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+            </div>
+            <div class="restaurant">
+                <img src="images/res6.jpg" alt="" id="image">
+                <div class="title">
+                    Golden Bistro 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                    <img src="images/icons/3.png" alt="Has Dairy">
+                    
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+            </div>
+            <div class="restaurant">
+                <img src="images/res7.jpg" alt="" id="image">
+                <div class="title">
+                    Bloom & Basil 
+                    
+                    <img src="images/icons/1.png" alt="Has Eggs">
+                
+                    <img src="images/icons/dotMenu.png" alt="See More..."></div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>Version 1.0</span> -
+            <a href="https://www.instagram.com/officialsafebite/">Follow us on Instagram</a> - <a href="https://github.com/safebiteofficial/safebite">Source Code</a> -
+            <a href="mailto:safebite@mail.com">Email Us</a> -
+            <a href="faq.html">FAQ</a>
+        </div>
+    </div>
+</body>
+</html>
